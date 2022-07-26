@@ -1,0 +1,8 @@
+{
+    "Resources": {
+        "EC2I2YW1P": {
+            "Type": "AWS::EC2::Instance",
+            "Properties": {}
+        }
+    }
+}
