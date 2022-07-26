@@ -9,11 +9,11 @@
   },
   "AMIIdParameter" : {
     "Type" : "String",
-    "Description" : "Enter AMI ID"
+    "Description" : "ami-098e42ae54c764c35"
   },
   "IAMRoleparameter" : {
     "Type" : "String",
-    "Description" : "Enter Existing IAM Role"
+    "Description" : "AWSCloudFormationFullAccess"
   }
 },
 "Resources" : {
