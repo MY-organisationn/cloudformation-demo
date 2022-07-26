@@ -20,9 +20,9 @@
     "myEC2Instance" : {
       "Type" : "AWS::EC2::Instance",
       "Properties" : {
-        "IamInstanceProfile" : {"Ref" : "IAMRoleparameter"},
-        "ImageId" : { "Ref" : "AMIIdParameter"},
-        "InstanceType" : { "Ref" : "InstanceTypeParameter" }
+        "IamInstanceProfile" : {"Ref" : "AWSCloudFormationFullAccess"},
+        "ImageId" : { "Ref" : "ami-098e42ae54c764c35"},
+        "InstanceType" : { "Ref" : "t2.micro" }
       }
     }
   }
