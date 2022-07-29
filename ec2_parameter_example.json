@@ -9,7 +9,7 @@
   },
   "AMIIdParameter" : {
     "Type" : "String",
-    "Description" : "ami-098e42ae54c764c35"
+    "Description" : "ami-08970fb2e5767e3b8"
   },
   "IAMRoleparameter" : {
     "Type" : "String",
@@ -21,7 +21,7 @@
       "Type" : "AWS::EC2::Instance",
       "Properties" : {
         "IamInstanceProfile" : {"Ref" : "AWSCloudFormationFullAccess"},
-        "ImageId" : { "Ref" : "ami-098e42ae54c764c35"},
+        "ImageId" : { "Ref" : "ami-08970fb2e5767e3b8"},
         "InstanceType" : { "Ref" : "t2.micro" }
       }
     }
